@@ -67,12 +67,12 @@ body{
 }
 
 
-.header-site{
+.header{
   margin: 44px 0px;
  
 }
 
-.box-header{
+.header__box{
   display: flex;
   align-items: center;
 }
@@ -80,25 +80,25 @@ body{
 
 
 
-.image-logo-box{
+.header__box__image{
   margin-right: auto;
   
   
   
 }
 
-.header-item{
+.header__item{
   display: flex;
 }
 
 
-.header-list{
+.header__list{
   list-style: none;
 
 
 }
 
-.herro-link{
+.header__link{
   text-decoration: none;
   color:#83888F;
   letter-spacing: 0.92px;
@@ -108,21 +108,21 @@ body{
 
 }
   
+.header_link--active{
+  margin: 0px 33px;
+}
 
 
-
-.herro-link:hover{
+.header__link:hover{
 letter-spacing: 0.92px;
 color: 
 #333D4B;
 }
 
 
-.header-link{
-  margin: 0px 33px;
-}
 
-.section-box-herro{
+
+.section__box{
   background-image: url(../image/Bitmap.png);
   background-repeat: no-repeat;
   border-radius: 12px;
@@ -134,11 +134,11 @@ color:
 }
 
 
-.section-little-herro{
+.section__item{
   padding-top: 90px;
   padding-left: 85px;
 }
-.section-herro{
+.section__herro{
   font-family: "Fraunces" , "serif";
   font-size: 4.5rem;
   font-weight: 900;
@@ -147,7 +147,7 @@ color:
   width: 493px;
 }
 
-.section-box-poragraf{
+.section__text{
   font-size: 16px;
   width: 445px;
   font-weight: 400;
@@ -157,7 +157,7 @@ color:
   opacity: 0.8;
 }
 
-.section-herro-link{
+.section__link{
   font-family: "Fraunces" , "serif";
 text-decoration: none;
 color: #fff;
@@ -169,6 +169,6 @@ font-weight: 900;
 border-radius: 6px;
 }
 
-.section-herro-link:hover{
+.section__link:hover{
   background-color: #66D2CF;
 }
